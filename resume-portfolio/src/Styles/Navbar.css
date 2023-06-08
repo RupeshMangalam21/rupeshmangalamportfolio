@@ -41,14 +41,14 @@
   padding: 10px;
   /* color: blanchedalmond; */
   color: #ccd6f6;
-  font-size: 18px;
+  font-size: 14px;
   font-family: monospace;
 }
 .ihALZY ol li a::before {
   content: "0" counter(item) ".";
   margin-right: 5px;
   color:#64ffda;
-  font-size: 18px;
+  font-size: 14px;
   text-align: right;
 }
 .navbar a {
