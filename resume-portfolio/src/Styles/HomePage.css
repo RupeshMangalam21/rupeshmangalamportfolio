@@ -1,5 +1,7 @@
 /* HomePage.css */
-
+body{
+  background-color: #0a192f;
+}
 .homepage {
     text-align: center;
     padding: 20px;
@@ -14,3 +16,6 @@
     font-size: 18px;
   }
   
+  .main-cont{
+    padding: 150px 150px;
+  }

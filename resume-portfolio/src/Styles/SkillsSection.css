@@ -1,0 +1,30 @@
+/* SkillsSection.css */
+
+.skill{
+  background-color: #f0ffff2b;
+  border-radius: 10px;
+  padding: 10px;
+  margin-block: 15px;
+  color: #ccd6f6;
+  margin-top: 11rem;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+ .skill ul {
+  list-style-type: none;
+  padding-left: 0px;
+  color: #64ffda;
+  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+  }
+  
+ .skill li {
+    margin-bottom: 5px;
+    background: #0000007a;
+    border-radius: 22px;
+    padding: 12px;
+  }
+  
