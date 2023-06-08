@@ -8,15 +8,17 @@ const Navbar: React.FC = () => {
         <h1>RM</h1>
         <ol>
           <li>
-            <a href="/">Home</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/skills">Skills</a>
+          </li>
+          <li>
+            <a href="/skills">Education & Certifications</a>
           </li>
           <li>
             <a href="/projects">Projects</a>
           </li>
-          {/* Add more navbar items */}
         </ol>
       </div>
     </nav>
