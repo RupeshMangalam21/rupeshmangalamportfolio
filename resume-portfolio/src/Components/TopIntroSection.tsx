@@ -17,7 +17,7 @@ const TopIntroSection: React.FC = () => {
         <p>I’m a software engineering student specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on a few interesting projects of my own working with emerging and rapidly growing technologies like BCI's and Blockchain. </p>
     </div>
     <div>
-    <a className="projects-link" href="https://www.newline.co/courses/build-a-spotify-connected-app" target="_blank" rel="noopener noreferrer">
+    <a className="projects-link" href="https://github.com/RupeshMangalam21?tab=repositories" target="_blank" rel="noopener noreferrer">
       Check out my projects!</a>
     </div>
 </div>
