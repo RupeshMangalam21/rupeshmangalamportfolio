@@ -1,24 +1,70 @@
 /* ProjectsSection.css */
 
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 20px;
-  }
-  
-  h3 {
-    margin-bottom: 5px;
-  }
-  
-  p {
-    margin: 0;
-  }
-  
+.projects {
+  margin-top: 11rem;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #ccd6f6;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card {
+  width: 300px;
+  background-color: #ccd6f61c;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.project-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.project-card-content {
+  padding: 20px;
+}
+
+.project-card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ccd6f6;
+}
+
+.project-card-description {
+  font-size: 14px;
+  color: #8892b0;
+  margin-bottom: 20px;
+}
+
+.project-card-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project-card-link {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0 8px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #64ffda;
+  border-radius: 4px;
+  background-color: rgba(100, 255, 218, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.project-card-link:hover {
+  background-color: rgba(100, 255, 218, 0.2);
+}

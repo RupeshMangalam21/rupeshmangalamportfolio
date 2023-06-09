@@ -13,16 +13,18 @@
   opacity: 1;
   transition: opacity 0.3s ease;
 }
+
 .loading-octagon {
-  width: 80px; 
-  height: 80px; 
+  width: 120px;
+  height: 120px;
 }
-.loading-text {
+
+.loading-image {
   position: absolute;
+  size: var(--fz-md);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 25px;
   color: #64ffda;
-  font-family:'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 }
