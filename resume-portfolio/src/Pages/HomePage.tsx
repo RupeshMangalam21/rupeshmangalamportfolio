@@ -4,6 +4,7 @@ import SkillsSection from '../Components/SkillsSection';
 import EducationSection from '../Components/EducationSection';
 import ProjectsSection from '../Components/ProjectsSection';
 import TopIntroSection from '../Components/TopIntroSection';
+import About from '../Components/About';
 import Links from '../Components/Links';
 
 const HomePage: React.FC = () => {
@@ -33,9 +34,11 @@ const HomePage: React.FC = () => {
     >
       <Links />
       <TopIntroSection />
+      <About />
       <SkillsSection />
       <EducationSection />
       <ProjectsSection />
+      <div class="line-element"></div>
     </div>
   );
 };
