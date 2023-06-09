@@ -1,13 +1,16 @@
 import React from 'react';
 import '../Styles/Navbar.css';
-import loadimg from '../Assets/images/icons8-r-96 (1).png'
+import loadimg from '../Assets/images/icons8-r-96 (1).png';
 
 const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="ihALZY">
-      <img src={loadimg} alt="R" className="logo-image" />        
-      <ol>
+        <div className="logo-container">
+          <img src={loadimg} alt="R" className="logo-image" />
+          <div className="flicker-effect"></div>
+        </div>
+        <ol>
           <li>
             <a href="/about">About</a>
           </li>

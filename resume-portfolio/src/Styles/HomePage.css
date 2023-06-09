@@ -2,6 +2,19 @@
 body{
   background-color: #0a192f;
 }
+
+.line-element {
+  position: fixed;
+    top: 14.3%;
+    right: 35px;
+    width: 8px;
+    height: 70vh;
+  background-color: #64ffda;
+  box-shadow: 0 0 10px #64ffda;
+  z-index: 9999;
+}
+
+
 .homepage {
     text-align: center;
     padding: 20px;
