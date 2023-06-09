@@ -1,16 +1,44 @@
 import React from 'react';
+import { FaGraduationCap } from 'react-icons/fa';
 import '../Styles/EducationSection.css';
 
 const EducationSection: React.FC = () => {
   return (
     <div className='edu'>
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <h3>Chandigarh University</h3>
-          <p>Degree: Bachelor of Science</p>
-          <p>Major: Computer Science</p>
-          <p>Year: 2021 - 2025</p>
+      <h2>Education & Certifications</h2>
+      <ul className='items-grid'>
+        <li className="gJHaRi">
+          <div className="items-inner">
+            <header style={{ marginBottom: '-95px' }}>
+              <div className="items-top">
+                <div className="folder">
+                  <FaGraduationCap className="icon-scholar-cap" />
+                </div>
+                <div className="items-links">
+                  {/* Remove the entire <a> element */}
+                </div>
+              </div>
+              <h3 className="items-title">
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Bachelor Of Engineering - Computer Science
+                </a>
+              </h3>
+              <div className="items-description">
+                <p>A Bachelor's Degree In Computer Science Engineering from Chandigarh University, India.</p>
+              </div>
+            </header>
+            <footer>
+              <ul className="items-tech-list">
+                <li>2021-2025</li>
+                <li>Software Engineering</li>
+                <li>Fullstack Development</li>
+              </ul>
+            </footer>
+          </div>
         </li>
       </ul>
     </div>
