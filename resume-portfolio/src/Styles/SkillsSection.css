@@ -9,6 +9,14 @@
   margin-top: 11rem;
 }
 
+.skill-icon {
+  font-size: 20px;
+  margin-right: -2px;
+  margin-bottom: -5px;
+  color: #ccd6f6;
+}
+
+
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
