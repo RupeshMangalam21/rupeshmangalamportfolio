@@ -1,0 +1,86 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: rgba(10, 25, 47, 0.85);
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+  height: 75px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ihALZY {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.ihALZY ol {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  margin-right: 50px;
+}
+.ihALZY ol li {
+  margin: 0px 5px;
+  position: relative;
+  counter-increment: item 1;
+  font-size: 13px;
+}
+.ihALZY ol li a {
+  padding: 10px;
+  /* color: blanchedalmond; */
+  color: #ccd6f6;
+  font-size: 14px;
+  font-family: monospace;
+}
+.ihALZY ol li a::before {
+  content: "0" counter(item) ".";
+  margin-right: 5px;
+  color:#64ffda;
+  font-size: 14px;
+  text-align: right;
+}
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+li {
+  text-align: -webkit-match-parent;
+}
+ol {
+  list-style-type: decimal;
+}
+.navbar h1 {
+  margin-right: auto;
+  color: #ccd6f6;
+  margin-left: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}

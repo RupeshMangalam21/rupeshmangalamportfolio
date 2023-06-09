@@ -1,0 +1,111 @@
+/* EducationSection.css */
+.edu{
+  padding: 10px;
+  margin-block: 15px;
+  color: #ccd6f6;
+  margin-top: 11rem;
+}
+
+  .items-grid{
+    list-style: none;
+    padding: 0px;
+    margin: 50px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    position: relative;
+  }
+
+  .gJHaRi {
+    position: relative;
+    cursor: default;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.items-inner{
+  box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    border-radius: 4px;
+    background-color: #112240;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    overflow: auto;
+}
+
+.items-top{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.items-top .folder{
+  color: #64ffda;
+}
+
+.items-top .folder svg{
+  width: 40px;
+  height: 40px;
+}
+.items-top .folder img{
+  width: 40px;
+  height: 40px;
+}
+
+.items-top .items-links{
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: -10px;
+    color: #a8b2d1;
+}
+
+.items-top .items-links a{
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 5px 7px;
+}
+
+.items-title{
+  margin: 0px 0px 10px;
+  color: #ccd6f6;
+  font-size: 22px;
+}
+
+.items-title a{
+  position: static;
+  color: #ccd6f6;
+}
+
+.items-description{
+  color:#a8b2d1;
+    font-size: 17px;
+}
+
+.gJHaRi .items-tech-list{
+  display: flex;
+  align-items: flex-end;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+
+.gJHaRi .items-tech-list li{
+  margin-right: 15px;
+}
+
