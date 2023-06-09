@@ -10,6 +10,26 @@
   height: 75px;
 }
 
+.bttn{
+  border: #64ffda;
+  color: #ccd6f6!important;
+  padding: 8px;
+  border-style: solid;
+  position: fixed!important;
+  left: 92%;
+  top: 25%;
+}
+
+.logo-image {
+  position: fixed;
+  top: 50%;
+  left: 3%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: #64ffda;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+
 .navbar-content {
   display: flex;
   justify-content: flex-end;
@@ -30,6 +50,9 @@
   margin: 0px;
   list-style: none;
   margin-right: 50px;
+  left: 52%;
+  top: 30%;
+  position: fixed;
 }
 .ihALZY ol li {
   margin: 0px 5px;

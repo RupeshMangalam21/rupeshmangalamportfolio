@@ -1,12 +1,13 @@
 import React from 'react';
 import '../Styles/Navbar.css';
+import loadimg from '../Assets/images/icons8-r-96 (1).png'
 
 const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="ihALZY">
-        <h1>RM</h1>
-        <ol>
+      <img src={loadimg} alt="R" className="logo-image" />        
+      <ol>
           <li>
             <a href="/about">About</a>
           </li>
@@ -20,6 +21,9 @@ const Navbar: React.FC = () => {
             <a href="/projects">Projects</a>
           </li>
         </ol>
+        <div>
+          <a href="/" className="bttn">Resume</a>
+        </div>
       </div>
     </nav>
   );
