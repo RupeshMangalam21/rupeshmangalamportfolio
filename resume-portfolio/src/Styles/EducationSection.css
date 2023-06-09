@@ -5,29 +5,7 @@
   color: #ccd6f6;
   margin-top: 11rem;
 }
-/*
-.edu h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
- .edu ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
- .edu li {
-    margin-bottom: 20px;
-  }
-  
- .edu h3 {
-    margin-bottom: 5px;
-  }
-  
- .edu p {
-    margin: 0;
-  }
-   */
+
   .items-grid{
     list-style: none;
     padding: 0px;
@@ -75,6 +53,10 @@
 }
 
 .items-top .folder svg{
+  width: 40px;
+  height: 40px;
+}
+.items-top .folder img{
   width: 40px;
   height: 40px;
 }
