@@ -1,34 +1,56 @@
 /* HomePage.css */
-body{
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+body {
   background-color: #0a192f;
 }
 
 .line-element {
   position: fixed;
-    top: 14.3%;
-    right: 35px;
-    width: 8px;
-    height: 70vh;
+  top: 14.3%;
+  right: 35px;
+  width: 8px;
+  height: 70vh;
   background-color: #64ffda;
   box-shadow: 0 0 10px #64ffda;
   z-index: 9999;
 }
 
-
 .homepage {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .homepage h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .homepage p {
-    font-size: 18px;
-  }
-  
-  .main-cont{
-    padding: 150px 150px;
-  }
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.homepage p {
+  font-size: 18px;
+}
+
+.main-cont {
+  padding: 150px 150px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #64ffda;
+  color: #ccd6f6;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  z-index: 9999;
+  text-decoration: none;
+  box-shadow: 0 0 10px #64ffda;
+}
+
+.back-to-top:hover {
+  background-color: lightcyan;
+  box-shadow: 0 0 20px #64ffda;
+}

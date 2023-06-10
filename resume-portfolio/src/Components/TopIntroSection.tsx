@@ -4,7 +4,7 @@ import '../Styles/TopIntroSection.css';
 const TopIntroSection: React.FC = () => {
   return (
 <div>
-    <div className='neon-text'>
+    <div className='neon-text' >
       <h3>Hi, my name is</h3>
     </div>
     <div className='big-heading'>
