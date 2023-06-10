@@ -17,8 +17,7 @@ const AboutSection: React.FC = () => {
               user-friendly and visually appealing websites that deliver great user experiences.
             </p>
             <p>
-              With several years of experience in the industry, I have honed my skills in HTML, CSS, and
-              JavaScript, and I'm proficient in various frontend frameworks like React and Vue.js.
+            As a student, I have been actively working on projects to gain practical experience and enhance my skills in web development. I have a solid foundation in HTML, CSS, and JavaScript, and I'm continuously learning and exploring new technologies. I have hands-on experience with frontend frameworks like React and languages like Typescript, which I have utilized in personal projects to build dynamic and interactive user interfaces.
             </p>
           </div>
           <div className="about-vector">

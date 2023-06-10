@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaGraduationCap } from 'react-icons/fa';
-import { FaCertificate } from 'react-icons/fa';
 import ibmLogo from '../Assets/images/icons8-ibm.svg';
 import btsLogo from '../Assets/images/icons8-bootstrap.svg';
 import '../Styles/EducationSection.css';
@@ -15,7 +14,9 @@ const EducationSection: React.FC = () => {
             <header style={{ marginBottom: '-95px' }}>
               <div className="items-top">
                 <div className="folder">
-                  <FaGraduationCap className="icon-scholar-cap" />
+                <span className="icon-scholar-cap">
+                    <FaGraduationCap />
+                  </span>
                 </div>
                 <div className="items-links">
                   {/* Remove the entire <a> element */}
