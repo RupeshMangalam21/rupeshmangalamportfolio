@@ -9,15 +9,33 @@ const SkillsSection: React.FC = () => {
     <div className='skill'>
       <h2>Skills</h2>
       <ul>
-        <li><SiReact className="skill-icon" /> React</li>
-        <li><SiHtml5 className="skill-icon" /> HTML</li>
-        <li><SiCss3 className="skill-icon" /> CSS</li>
-        <li><SiJavascript className="skill-icon" /> JavaScript</li>
-        <li><SiGit className="skill-icon" /> Git</li>
-        <li><SiGithub className="skill-icon" /> Github</li>
-        <li><SiFirebase className="skill-icon" /> Firebase</li>
-        <li><AiOutlineApi className="skill-icon" /> API</li>
-        <li><FiLayers className="skill-icon" /> Prompt Engineering</li>
+        <li>
+          <span className="skill-icon"><SiReact /></span> React
+        </li>
+        <li>
+          <span className="skill-icon"><SiHtml5 /></span> HTML
+        </li>
+        <li>
+          <span className="skill-icon"><SiCss3 /></span> CSS
+        </li>
+        <li>
+          <span className="skill-icon"><SiJavascript /></span> JavaScript
+        </li>
+        <li>
+          <span className="skill-icon"><SiGit /></span> Git
+        </li>
+        <li>
+          <span className="skill-icon"><SiGithub /></span> Github
+        </li>
+        <li>
+          <span className="skill-icon"><SiFirebase /></span> Firebase
+        </li>
+        <li>
+          <span className="skill-icon"><AiOutlineApi /></span> API
+        </li>
+        <li>
+          <span className="skill-icon"><FiLayers /></span> Prompt Engineering
+        </li>
       </ul>
     </div>
   );
