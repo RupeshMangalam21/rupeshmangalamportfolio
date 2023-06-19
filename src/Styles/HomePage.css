@@ -16,6 +16,17 @@ body {
   z-index: 9999;
 }
 
+.line-element p{
+  color: #ccd6f6;
+  margin-left: -285px;
+  margin-top: 5px;
+  background-color: rgba(100, 255, 218, 0.2);
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  border-radius: 25px;
+  position: absolute;
+}
+
 .homepage {
   text-align: center;
   padding: 20px;

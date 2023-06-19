@@ -65,7 +65,9 @@ const HomePage: React.FC = () => {
       <div id='projects' style={{ paddingTop: '10px' }}>
         <ProjectsSection />
       </div>
-      <div className='line-element'></div>
+      <div className='line-element'>
+        <p>rupeshmangalam.work@gmail.com</p>
+      </div>
       {showBackToTop && (
         <a href='#top' className='back-to-top' onClick={handleBackToTop}>
           <i className='fas fa-arrow-up'></i>
