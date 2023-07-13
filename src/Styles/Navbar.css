@@ -11,7 +11,7 @@
 }
 
 .bttn{
-  border: #64ffda;
+  border: #3589ff;
   color: #ccd6f6!important;
   padding: 8px;
   border-style: solid;
@@ -27,7 +27,7 @@
   left: 3%;
   transform: translate(-50%, -50%);
   font-size: 25px;
-  color: #64ffda;
+  color: #3589ff;
   font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 }
 
@@ -71,7 +71,7 @@
 .ihALZY ol li a::before {
   content: "0" counter(item) ".";
   margin-right: 5px;
-  color:#64ffda;
+  color:#3589ff;
   font-size: 14px;
   text-align: right;
 }

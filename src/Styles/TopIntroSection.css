@@ -15,7 +15,7 @@
   line-height: 1.1;
 }
 .neon-text{
-    color: #64ffda;
+    color: #3589ff;
     margin: 0px 0px 30px 4px;
     font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     font-weight: 400;
@@ -30,9 +30,9 @@ p{
 }
 
 .projects-link{
-  color:#64ffda;
+  color:#3589ff;
   background-color: transparent;
-  border: 1px solid #64ffda;
+  border: 1px solid #3589ff;
   border-radius:4px;
   padding: 1.25rem 1.75rem;
   font-size: 14px;
