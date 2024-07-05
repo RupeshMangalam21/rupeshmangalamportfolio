@@ -12,13 +12,41 @@ const ProjectsSection: React.FC = () => {
       codeUrl: 'https://github.com/RupeshMangalam21/e-healthcare-management-system',
     },
     {
-      title: 'Resume Portfolio Website',
+      title: 'Developer Portfolio',
       description: 'A Personal Portfolio Website made with React and Typescript.',
       imageUrl: 'https://i.postimg.cc/RZJrdTbh/portfoliowebsite.png',
       demoUrl: 'https://e-healthcare-management-system-avah.vercel.app/',
       codeUrl: 'https://github.com/RupeshMangalam21/rupeshmangalamportfolio',
     },
-    // Add more projects
+    {
+      title: 'INDRA - CloudBurst Prediction Model',
+      description: 'Ensemble Models for cloudburst Prediction',
+      imageUrl: 'https://i.postimg.cc/TPhgmJmh/Screenshot-171.png',
+      demoUrl: 'https://e-healthcare-management-system-avah.vercel.app/',
+      codeUrl: 'https://github.com/RupeshMangalam21/rupeshmangalamportfolio',
+    },
+    {
+      title: 'Sweet Addictions - Online Bakery Store',
+      description: 'Online Store for a Local Bakery run by Students',
+      imageUrl: 'https://i.postimg.cc/Y9dSx5HH/Screenshot-172.png',
+      demoUrl: 'https://e-healthcare-management-system-avah.vercel.app/',
+      codeUrl: 'https://github.com/RupeshMangalam21/rupeshmangalamportfolio',
+    },
+    {
+      title: 'BharatAgro - Agricultural Produce Tracking Solution',
+      description: 'Mobile Application for Market Condition Backed Estimation for Crop Production Tracking',
+      imageUrl: 'https://i.postimg.cc/902Dxd4d/Bharat-Agro.png',
+      demoUrl: 'https://e-healthcare-management-system-avah.vercel.app/',
+      codeUrl: 'https://github.com/RupeshMangalam21/rupeshmangalamportfolio',
+    },
+    {
+      title: 'KickX - Luxury Shoe Store for Authentic Sneakers',
+      description: 'Authenticity Verification Solution For Limited Edition Products',
+      imageUrl: 'https://i.postimg.cc/BQFc6p3g/Screenshot-174.png',
+      demoUrl: 'https://e-healthcare-management-system-avah.vercel.app/',
+      codeUrl: 'https://github.com/RupeshMangalam21/rupeshmangalamportfolio',
+    },
+    //
   ];
 
   return (
