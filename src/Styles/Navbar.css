@@ -8,24 +8,51 @@
   z-index: 11;
   width: 100%;
   height: 75px;
+  display: flex; /* Use flexbox for the navbar */
+  justify-content: space-between; /* Space between logo, items, and button */
+  align-items: center; /* Center items vertically */
 }
 
-.bttn{
+.nav-links {
+  display: flex; /* Ensure links are displayed in a row */
+  margin-left: auto; /* Push links to the right */
+}
+
+.nav-links li {
+  content: "0" counter(item) ".";
+  margin-right: 10px;
+  color: #64ffda;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.nav-links li a{
+  color: #ccd6f6;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px;
+  text-decoration: unset;
+}
+
+.nav-links ol li a::before {
+  content: "0" counter(item) ".";
+  margin-right: 5px;
+  color: #64ffda;
+  font-size: 14px;
+}
+
+.bttn {
   border: #64ffda;
-  color: #ccd6f6!important;
-  padding: 8px;
+  color: #ccd6f6 !important;
+  padding: 8px 12px; /* Added horizontal padding */
   border-style: solid;
-  position: fixed!important;
-  left: 92%;
-  max-height: 15px;
-  top: 25%;
+  margin-left: 20px; /* Added margin to separate from other links */
+  margin-right: 20px;
+  display: inline-flex; /* Changed display for proper alignment */
+  align-items: center; /* Center vertically */
 }
 
 .logo-image {
-  position: fixed;
-  top: 50%;
-  left: 3%;
-  transform: translate(-50%, -50%);
   font-size: 25px;
   color: #64ffda;
   font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
@@ -33,65 +60,31 @@
 
 .navbar-content {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  align-items: center; /* Center links vertically */
 }
+
 .ihALZY {
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
 }
+
 .ihALZY ol {
   display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
   align-items: center;
   padding: 0px;
   margin: 0px;
   list-style: none;
-  margin-right: 50px;
-  left: 52%;
-  top: 30%;
-  position: fixed;
 }
+
 .ihALZY ol li {
   margin: 0px 5px;
   position: relative;
   counter-increment: item 1;
   font-size: 13px;
 }
-.ihALZY ol li a {
-  padding: 10px;
-  /* color: blanchedalmond; */
-  color: #ccd6f6;
-  font-size: 14px;
-  font-family: monospace;
-}
-.ihALZY ol li a::before {
-  content: "0" counter(item) ".";
-  margin-right: 5px;
-  color:#64ffda;
-  font-size: 14px;
-  text-align: right;
-}
-.navbar a {
-  display: flex;
-  text-decoration: none;
-  text-decoration-skip-ink: auto;
-  color: inherit;
-  position: relative;
-  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-  align-items: center;
-}
-li {
-  text-align: -webkit-match-parent;
-}
-ol {
-  list-style-type: decimal;
-}
+
 .navbar h1 {
-  margin-right: auto;
+  margin-right: auto; /* Keep the title at the start */
   color: #ccd6f6;
   margin-left: 30px;
 }
@@ -99,13 +92,68 @@ ol {
 ul {
   list-style-type: none;
   display: flex;
+  margin-left: auto; /* Push links to the right */
 }
 
-li {
-  margin-left: 10px;
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    padding: 15px 10px;
+    flex-direction: column; /* Stack items for smaller screens */
+  }
+
+  .bttn {
+    margin-left: 0; /* Remove margin for smaller screens */
+    font-size: 12px; /* Reduce font size */
+  }
+
+  .logo-image {
+    font-size: 20px;
+  }
+
+  .ihALZY ol {
+    margin-right: 10px; /* Reduced margin for smaller screens */
+  }
+
+  .ihALZY ol li {
+    font-size: 12px;
+  }
+
+  .ihALZY ol li a {
+    padding: 8px;
+    font-size: 12px;
+    color: #ccd6f6;
+    font-family: monospace;
+  }
+
+  .navbar h1 {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .navbar-content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
-a {
-  text-decoration: none;
-  color: #333;
+@media (max-width: 480px) {
+  .bttn {
+    margin-left: 0; /* Further reduce margin for extra small screens */
+    font-size: 10px; /* Further reduce font size */
+  }
+
+  .ihALZY ol {
+    flex-direction: column; /* Stack links for extra small screens */
+    left: auto; /* Reset left positioning for small screens */
+  }
+
+  .ihALZY ol li {
+    margin: 5px 0;
+  }
+
+  .navbar h1 {
+    font-size: 16px;
+  }
 }

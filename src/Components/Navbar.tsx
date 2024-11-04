@@ -5,12 +5,12 @@ import loadimg from '../Assets/images/icons8-r-96 (1).png';
 const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
-      <div className="ihALZY">
-        <div className="logo-container">
-          <img src={loadimg} alt="R" className="logo-image" />
-          <div className="flicker-effect"></div>
-        </div>
-        <ol>
+      <div className="logo-container">
+        <img src={loadimg} alt="R" className="logo-image" />
+        <div className="flicker-effect"></div>
+      </div>
+      <div className="navbar-content">
+        <ol className="nav-links">
           <li>
             <a href="#about">About</a>
           </li>
@@ -25,7 +25,14 @@ const Navbar: React.FC = () => {
           </li>
         </ol>
         <div>
-        <a href="https://docs.google.com/document/d/1eB2Vl1OImnilWrS1epFQdmeAWDQATUxkl4mYyFSnPkI/edit?usp=sharing" className="bttn" target="_blank" rel="noopener noreferrer">Resume</a>
+          <a 
+            href="https://docs.google.com/document/d/1eB2Vl1OImnilWrS1epFQdmeAWDQATUxkl4mYyFSnPkI/edit?usp=sharing" 
+            className="bttn" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </nav>
