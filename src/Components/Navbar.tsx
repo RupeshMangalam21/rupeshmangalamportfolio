@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
           </li>
         </ol>
         <div>
-        <a href="https://gray-yolanthe-78.tiiny.site" className="bttn" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="https://docs.google.com/document/d/1eB2Vl1OImnilWrS1epFQdmeAWDQATUxkl4mYyFSnPkI/edit?usp=sharing" className="bttn" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
       </div>
     </nav>

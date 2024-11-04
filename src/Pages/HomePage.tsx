@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
   const handleMouseMove = (event: MouseEvent) => {
     setGradientPosition({
       x: event.clientX,
-      y: event.clientY + window.pageYOffset, // Adjust for scroll position
+      y: event.clientY + window.pageYOffset, 
     });
   };
 

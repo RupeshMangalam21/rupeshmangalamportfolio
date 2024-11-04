@@ -11,17 +11,16 @@ const App: React.FC = () => {
   useEffect(() => {
     // Simulating loading time
     setTimeout(() => {
-      setIsLoading(false); // Set isLoading to false to hide the loading animation
-    }, 2000); // Replace this with your actual loading time or API request
+      setIsLoading(false);
+    }, 2000);
   }, []);
 
   useEffect(() => {
     if (!isLoading) {
-      // Animation complete, do any cleanup if necessary
-      return;
+    return;
     }
 
-    // Animate the loading octagon
+    //loading octagon
     const octagon = document.getElementById('loading-octagon');
     if (octagon) {
       const tl = gsap.timeline({ repeat: -1 });
@@ -39,7 +38,7 @@ const App: React.FC = () => {
           <img src={loadimg} alt="R" className="loading-image" style={{width:"5rem"}}/>
         </div>
       ) : (
-        // Render your content when loading is complete
+
         <div>
           <Navbar />
           <HomePage />
