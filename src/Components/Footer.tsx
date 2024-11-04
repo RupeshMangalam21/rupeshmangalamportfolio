@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2023 Rupesh Mangalam. All rights reserved.</p>
+        <p>&copy; 2024 Rupesh Mangalam. All rights reserved.</p>
       </div>
     </footer>
   );
